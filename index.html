@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philosophia+ - Get Help</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            background-color: #f8f9fa;
+            background-image: 
+                linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+            background-size: 20px 20px;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .header {
+            background-color: white;
+            padding: 20px 40px;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo-text {
+            font-size: 24px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .main-content {
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 0 40px;
+            flex: 1;
+        }
+
+        .help-title {
+            font-size: 48px;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 40px;
+            text-align: left;
+        }
+
+        .help-text {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 30px;
+            line-height: 1.7;
+        }
+
+        .support-email {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .support-email:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 40px;
+            border-top: 1px solid #e9ecef;
+            background-color: white;
+            margin-top: auto;
+        }
+
+        .privacy-link {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .privacy-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                padding: 15px 20px;
+            }
+
+            .main-content {
+                padding: 0 20px;
+                margin: 40px auto;
+            }
+
+            .help-title {
+                font-size: 36px;
+            }
+
+            .help-text {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <div class="logo">
+                <img src="images/app_icon.png" alt="Philosophia+ Icon" style="width: 40px; height: 40px; object-fit: contain;">
+            </div>
+            <span class="logo-text">Philosophia+</span>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <h1 class="help-title">Get Help</h1>
+        
+        <p class="help-text">We're sorry you're having a problem!</p>
+        
+        <p class="help-text">
+            We'll add more resources soon. If you have a question please drop us an email at 
+            <a href="mailto:philosophia.application@gmail.com" class="support-email">philosophia.application@gmail.com</a>. 
+            We're humans so please be nice and patient as it may take us a little while to get back to you.
+        </p>
+    </main>
+
+    <footer class="footer">
+        <a href="https://docs.google.com/document/d/1_UMqNR4WB2t8Pw79t1PNnz48P6j_pR1Cujj7hrzvD_Q" class="privacy-link" target="_blank">Privacy policy</a>
+    </footer>
+</body>
+</html>
